@@ -1,0 +1,23 @@
+# Node.js dependencies
+**/node_modules/
+
+# macOS
+.DS_Store
+
+# Runtime logs
+**/logs.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment/secrets
+.env
+.env.*
+
+# Editor files
+.vscode/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>University Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>University Portal</h1>
+    <nav id="navBar" style="display: none;">
+      <a href="#">Home</a>
+      <a href="#" onclick="logout()">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="loginSection" class="card">
+      <form id="loginForm">
+        <label>Username:</label>
+        <input type="text" name="username" required />
+        <label>Password:</label>
+        <input type="password" name="password" required />
+        <button type="submit">Login</button>
+        <p id="loginMsg"></p>
+      </form>
+    </section>
+
+    <section id="searchSection" class="card" style="display: none;">
+      <h2 id="welcomeUser"></h2>
+      <label>Search Student Name:</label>
+      <input type="text" id="searchInput" placeholder="Enter name or query..." />
+      <button onclick="performSearch()">Search</button>
+      <button onclick="viewAllUsers()">View All Users</button>
+      <ul id="results"></ul>
+    </section>
+
+    <!-- <div id="adminPanel" style="display: none;">
+      <h3>Admin Panel</h3>
+      <input placeholder="Username" id="uName" />
+      <input placeholder="Password" id="uPass" />
+      <input placeholder="Branch" id="uBranch" />
+      <input placeholder="Marks" type="number" id="uMarks" />
+      <select id="uRole">
+        <option value="student">student</option>
+        <option value="admin">admin</option>
+        <option value="guest">guest</option>
+      </select>
+      <button onclick="addUser()">Add</button>
+      <button onclick="updateUser()">Update</button>
+      <button onclick="deleteUser()">Delete</button>
+    </div> -->
+
+    <div id="adminPanel" style="display: none;">
+  <h3>Data Manipulation Panel</h3>
+  <input placeholder="Username" id="uName" />
+  <input placeholder="Password" id="uPass" />
+  <input placeholder="Branch" id="uBranch" />
+  <input placeholder="Marks" type="number" id="uMarks" />
+  <select id="uRole">
+    <option value="student">student</option>
+    <option value="admin">admin</option>
+    <option value="guest">guest</option>
+  </select>
+  <button onclick="addUser()">Add</button>
+  <button onclick="updateUser()">Update</button>
+  <button onclick="deleteUser()">Delete</button>
+  </div>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 University Portal | Secure Search</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
