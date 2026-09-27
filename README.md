@@ -9,10 +9,10 @@ Developed during a 2-month summer research internship within the **ISFCR (PESU C
 ## 🏆 Project Credentials & Research Artifacts
 This project was executed as a collaborative comparative study alongside a teammate. While the global scope evaluated both relational and document-based exploits, **this repository isolates and hosts my complete specialized contribution: the entire NoSQL Injection, Mitigation, and ML Analytics pipeline**.
 
-* 📜 **Credential Verification:** [View my Official ISFCR Internship Certificate](./docs/Internship_Certificate.jpg)
-* 📊 **Project Presentation:** [Download Project Presentation Slides](./docs/Project_Presentation.pdf)
-* 📋 **Academic Thesis Documentation:** [Read the Comparative Research Report](./docs/Research_Report.pdf)
-* 📄 **Working Manuscript:** [View the Draft Research Paper](./docs/Research_Paper_Draft.pdf)
+* 📜 **Credential Verification:** [View my Official ISFCR Internship Certificate](./Docs/Internship_Certificate.jpg)
+* 📊 **Project Presentation:** [Download Project Presentation Slides](./Docs/Project_Presentation.pdf)
+* 📋 **Academic Thesis Documentation:** [Read the Comparative Research Report](./Docs/Research_Report.pdf)
+* 📄 **Working Manuscript:** [View the Draft Research Paper](./Docs/Research_Paper_Draft.pdf)
 
 ---
 
@@ -21,7 +21,7 @@ This project was executed as a collaborative comparative study alongside a teamm
 ```text
 NoSQL-Injection-Detection-Using-ML-and-Heuristics/
 │
-├── 📁 docs/                    # Institutional Verification Artifacts
+├── 📁 Docs/                    # Institutional Verification Artifacts
 │   ├── Internship_Certificate.jpg
 │   ├── Project_Presentation.pdf
 │   ├── Research_Report.pdf
